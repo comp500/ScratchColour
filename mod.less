@@ -24,14 +24,14 @@ div#pagewrapper {
             &>li.sign-in:hover, &>li.sign-in.open, &.logged-in li:hover, &>li.join-scratch:hover {
                 background: darken(@theme-color, 20%) !important;
             }
-            /* arrow */
-            .sign-in .popover .arrow:after {
-                border-bottom-color: darken(@theme-color, 20%) !important;
-            }
             /* box */
             .sign-in .popover {
                 background-color: darken(@theme-color, 20%) !important;
                 border-color: #343434 !important;
+                /* arrow */
+                .arrow:after {
+                    border-bottom-color: darken(@theme-color, 20%) !important;
+                }
             }
             .logged-in-user .dropdown-menu, .logged-in-user.dropdown.open {
                 background-color: darken(@theme-color, 20%) !important;
@@ -52,16 +52,16 @@ div#pagewrapper {
     li {
         transition: all .5s !important;
     }
-}
-/* box tops */
-div#pagewrapper .box {
-	background: @theme-color !important;
-	border: 0.5px solid darken(@theme-color, 20%) !important;
-}
-div#pagewrapper .box .box-head {
-    h1, h2, h3, h4, .header-text .profile-details, .header-text #author {
-        text-shadow: none !important;
-        color: contrast(@theme-color) !important;
+    /* box tops */
+    .box {
+        background: @theme-color !important;
+        border: 0.5px solid darken(@theme-color, 20%) !important;
+        .box-head {
+            h1, h2, h3, h4, .header-text .profile-details, .header-text #author {
+                text-shadow: none !important;
+                color: contrast(@theme-color) !important;
+            }
+        }
     }
 }
 /* title */

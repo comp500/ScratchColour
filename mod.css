@@ -2,6 +2,7 @@
 /* Scratch Less CSS */
 div#pagewrapper {
   /* video */
+  /* box tops */
 }
 div#pagewrapper a {
   /* links */
@@ -26,7 +27,6 @@ div#pagewrapper #topnav ul.account-nav > li {
 }
 div#pagewrapper #topnav ul.account-nav {
   /* hover */
-  /* arrow */
   /* box */
 }
 div#pagewrapper #topnav ul.account-nav > li.sign-in:hover,
@@ -35,12 +35,13 @@ div#pagewrapper #topnav ul.account-nav.logged-in li:hover,
 div#pagewrapper #topnav ul.account-nav > li.join-scratch:hover {
   background: #680099 !important;
 }
-div#pagewrapper #topnav ul.account-nav .sign-in .popover .arrow:after {
-  border-bottom-color: #680099 !important;
-}
 div#pagewrapper #topnav ul.account-nav .sign-in .popover {
   background-color: #680099 !important;
   border-color: #343434 !important;
+  /* arrow */
+}
+div#pagewrapper #topnav ul.account-nav .sign-in .popover .arrow:after {
+  border-bottom-color: #680099 !important;
 }
 div#pagewrapper #topnav ul.account-nav .logged-in-user .dropdown-menu,
 div#pagewrapper #topnav ul.account-nav .logged-in-user.dropdown.open {
@@ -59,7 +60,6 @@ div#pagewrapper .homepage-banner .video {
 div#pagewrapper li {
   transition: all .5s !important;
 }
-/* box tops */
 div#pagewrapper .box {
   background: #ae00ff !important;
   border: 0.5px solid #680099 !important;
