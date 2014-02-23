@@ -109,9 +109,9 @@ div#pagewrapper .box {
   border: 0.5px solid #99004f !important;
 }
 div#pagewrapper .box .box-head h1,
-h2,
-h3,
-h4 {
+div#pagewrapper .box .box-head h2,
+div#pagewrapper .box .box-head h3,
+div#pagewrapper .box .box-head h4 {
   text-shadow: none !important;
   color: #ffffff !important;
 }
