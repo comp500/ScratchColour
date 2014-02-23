@@ -32,7 +32,7 @@ div#pagewrapper a.black:active {
 }
 .button a,
 .button a:visited {
-  color: #ffffff;
+  color: #ffffff !important;
 }
 span#owner {
   color: white !important;

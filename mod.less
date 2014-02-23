@@ -5,32 +5,34 @@
 /* Scratch green CSS */
 /* links */
 ul#tabs a{
-  color: #ffffff !important;
+    color: #ffffff !important;
 }
 a.right {
-  color: #ffffff !important;
+    color: #ffffff !important;
+    &:hover {
+        color: #454545 !important;
+    }
 }
-a.right:hover {
-  color: #454545 !important;
-}
-div#pagewrapper a:hover, div#pagewrapper a:active, div#pagewrapper a.black:hover, div#pagewrapper a.black:active {
-	color: darken(@theme-color, 20%) !important;
+div#pagewrapper a {
+    &:hover, &:active, &.black:hover, &.black:active {
+        color: darken(@theme-color, 20%) !important;
+    }
 }
 .button {
     background-image: -webkit-linear-gradient(top,@theme-color,darken(@theme-color, 20%)) !important;
     border-width: 0px !important;
     color: contrast(@theme-color) !important;
     text-shadow: 0 1px #fff - contrast(@theme-color) !important;
-}
-.button:hover {
-    background-image: -webkit-linear-gradient(top,darken(@theme-color, 20%),@theme-color) !important;
-    color: contrast(@theme-color) !important;
-}
-.button:hover>span, .button:hover>a {
-    color: contrast(@theme-color) !important;
-}
-.button a, .button a:visited {
-    color: contrast(@theme-color)
+    &:hover {
+        background-image: -webkit-linear-gradient(top,darken(@theme-color, 20%),@theme-color) !important;
+        color: contrast(@theme-color) !important;
+        &>span, &>a {
+            color: contrast(@theme-color) !important;
+        }
+    }
+    a, a:visited {
+        color: contrast(@theme-color) !important;
+    }
 }
 span#owner {
     color:white !important;        
