@@ -12,7 +12,6 @@ div#pagewrapper a.black:active {
 div#pagewrapper #topnav {
   /* topnav */
   background-color: #ae00ff !important;
-  /* hover */
 }
 div#pagewrapper #topnav a {
   color: #ffffff !important;
@@ -22,15 +21,8 @@ div#pagewrapper #topnav ul.site-nav li.last,
 div#pagewrapper #topnav ul.account-nav > li {
   border: none !important;
 }
-div#pagewrapper #topnav ul.account-nav > li.sign-in:hover,
-div#pagewrapper #topnav ul.account-nav > li.sign-in.open,
-div#pagewrapper #topnav ul.site-nav li:hover,
-div#pagewrapper #topnav ul.account-nav.logged-in li:hover,
-div#pagewrapper #topnav ul.account-nav > li.join-scratch:hover {
-  background: #680099 !important;
-}
 div#pagewrapper #topnav ul.account-nav {
-  /* sign in box */
+  /* hover */
   /* arrow */
 }
 div#pagewrapper #topnav ul.account-nav > li.sign-in:hover,
