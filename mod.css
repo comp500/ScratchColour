@@ -112,7 +112,8 @@ div#pagewrapper .box .box-head h1,
 div#pagewrapper .box .box-head h2,
 div#pagewrapper .box .box-head h3,
 div#pagewrapper .box .box-head h4,
-div#pagewrapper .box .box-head .header-text {
+div#pagewrapper .box .box-head .header-text .profile-details,
+div#pagewrapper .box .box-head .header-text #author {
   text-shadow: none !important;
   color: #ffffff !important;
 }
