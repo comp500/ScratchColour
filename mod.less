@@ -24,20 +24,19 @@ div#pagewrapper {
             background: darken(@theme-color, 20%) !important;
         }
         ul.account-nav {
+            /* sign in box */
             &>li.sign-in:hover, &>li.sign-in.open, &.logged-in li:hover, &>li.join-scratch:hover {
                 background: darken(@theme-color, 20%) !important;
+            }
+            /* arrow */
+            .sign-in .popover .arrow:after {
+                border-bottom-color: darken(@theme-color, 20%) !important;
             }
         }
         ul.site-nav li:hover {
             background: darken(@theme-color, 20%) !important;
         }
     }
-}
-
-/* sign in box */
-/* arrow */
-div#pagewrapper #topnav ul.account-nav .sign-in .popover .arrow:after {
-	border-bottom-color: darken(@theme-color, 20%) !important;
 }
 /* box */
 div#pagewrapper #topnav ul.account-nav .sign-in .popover {

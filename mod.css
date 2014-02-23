@@ -29,19 +29,21 @@ div#pagewrapper #topnav ul.account-nav.logged-in li:hover,
 div#pagewrapper #topnav ul.account-nav > li.join-scratch:hover {
   background: #680099 !important;
 }
+div#pagewrapper #topnav ul.account-nav {
+  /* sign in box */
+  /* arrow */
+}
 div#pagewrapper #topnav ul.account-nav > li.sign-in:hover,
 div#pagewrapper #topnav ul.account-nav > li.sign-in.open,
 div#pagewrapper #topnav ul.account-nav.logged-in li:hover,
 div#pagewrapper #topnav ul.account-nav > li.join-scratch:hover {
   background: #680099 !important;
 }
-div#pagewrapper #topnav ul.site-nav li:hover {
-  background: #680099 !important;
-}
-/* sign in box */
-/* arrow */
 div#pagewrapper #topnav ul.account-nav .sign-in .popover .arrow:after {
   border-bottom-color: #680099 !important;
+}
+div#pagewrapper #topnav ul.site-nav li:hover {
+  background: #680099 !important;
 }
 /* box */
 div#pagewrapper #topnav ul.account-nav .sign-in .popover {
