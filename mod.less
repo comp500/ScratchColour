@@ -28,25 +28,22 @@ div#pagewrapper {
             .sign-in .popover .arrow:after {
                 border-bottom-color: darken(@theme-color, 20%) !important;
             }
+            /* box */
+            .sign-in .popover {
+                background-color: darken(@theme-color, 20%) !important;
+                border-color: #343434 !important;
+            }
+            .logged-in-user .dropdown-menu, .logged-in-user.dropdown.open {
+                background-color: darken(@theme-color, 20%) !important;
+            }
+            ul.user-nav li.logout.divider {
+                border-top: 2px solid #343434 !important;
+            }
         }
         ul.site-nav li:hover {
             background: darken(@theme-color, 20%) !important;
         }
     }
-}
-/* box */
-div#pagewrapper #topnav ul.account-nav .sign-in .popover {
-	background-color: darken(@theme-color, 20%) !important;
-	border-color: #343434 !important;
-}
-div#pagewrapper #topnav ul.account-nav .logged-in-user .dropdown-menu {
-	background-color: darken(@theme-color, 20%) !important;
-}
-div#pagewrapper #topnav ul.account-nav ul.user-nav li.logout.divider {
-	border-top: 2px solid #343434 !important;
-}
-div#pagewrapper #topnav ul.account-nav .logged-in-user.dropdown.open {
-background-color: darken(@theme-color, 20%) !important;
 }
 /* video */
 div#pagewrapper .homepage-banner .video {

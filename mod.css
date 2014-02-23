@@ -24,6 +24,7 @@ div#pagewrapper #topnav ul.account-nav > li {
 div#pagewrapper #topnav ul.account-nav {
   /* hover */
   /* arrow */
+  /* box */
 }
 div#pagewrapper #topnav ul.account-nav > li.sign-in:hover,
 div#pagewrapper #topnav ul.account-nav > li.sign-in.open,
@@ -34,22 +35,19 @@ div#pagewrapper #topnav ul.account-nav > li.join-scratch:hover {
 div#pagewrapper #topnav ul.account-nav .sign-in .popover .arrow:after {
   border-bottom-color: #680099 !important;
 }
-div#pagewrapper #topnav ul.site-nav li:hover {
-  background: #680099 !important;
-}
-/* box */
 div#pagewrapper #topnav ul.account-nav .sign-in .popover {
   background-color: #680099 !important;
   border-color: #343434 !important;
 }
-div#pagewrapper #topnav ul.account-nav .logged-in-user .dropdown-menu {
+div#pagewrapper #topnav ul.account-nav .logged-in-user .dropdown-menu,
+div#pagewrapper #topnav ul.account-nav .logged-in-user.dropdown.open {
   background-color: #680099 !important;
 }
 div#pagewrapper #topnav ul.account-nav ul.user-nav li.logout.divider {
   border-top: 2px solid #343434 !important;
 }
-div#pagewrapper #topnav ul.account-nav .logged-in-user.dropdown.open {
-  background-color: #680099 !important;
+div#pagewrapper #topnav ul.site-nav li:hover {
+  background: #680099 !important;
 }
 /* video */
 div#pagewrapper .homepage-banner .video {
