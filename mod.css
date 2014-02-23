@@ -26,6 +26,9 @@ div#pagewrapper a.black:active {
   background-image: -webkit-linear-gradient(top, #cccccc, #ffffff) !important;
   color: #000000 !important;
 }
+.button:hover > span {
+  color: #000000 !important;
+}
 span#owner {
   color: white !important;
 }
@@ -59,7 +62,7 @@ div#pagewrapper #topnav {
   background-color: #ffffff !important;
 }
 div#pagewrapper #topnav a {
-  color: #FFFFFF !important;
+  color: #000000 !important;
 }
 div#pagewrapper #topnav ul.site-nav li,
 div#pagewrapper #topnav ul.site-nav li.last,
