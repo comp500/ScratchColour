@@ -29,6 +29,10 @@ div#pagewrapper a.black:active {
 .button:hover > span {
   color: #000000 !important;
 }
+.button a,
+.button a:visited {
+  color: #000000;
+}
 span#owner {
   color: white !important;
 }

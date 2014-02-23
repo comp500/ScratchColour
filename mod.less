@@ -29,6 +29,9 @@ div#pagewrapper a:hover, div#pagewrapper a:active, div#pagewrapper a.black:hover
 .button:hover>span {
     color: contrast(@theme-color) !important;
 }
+.button a, .button a:visited {
+    color: contrast(@theme-color)
+}
 span#owner {
     color:white !important;        
 }
@@ -106,9 +109,11 @@ div#pagewrapper .box {
 	background: @theme-color !important;
 	border: 0.5px solid darken(@theme-color, 20%) !important;
 }
-div#pagewrapper .box .box-head h1, div#pagewrapper .box .box-head h2, div#pagewrapper .box .box-head h3, div#pagewrapper .box .box-head h4, div#pagewrapper .box .box-head .header-text .profile-details, div#pagewrapper .box .box-head .header-text #author {
-    text-shadow: none !important;
-    color: contrast(@theme-color) !important;
+div#pagewrapper .box .box-head {
+    h1, h2, h3, h4, .header-text .profile-details, .header-text #author {
+        text-shadow: none !important;
+        color: contrast(@theme-color) !important;
+    }
 }
 /* title */
 div#pagewrapper .intro .title {
