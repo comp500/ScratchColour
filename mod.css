@@ -14,17 +14,17 @@ div#pagewrapper a:hover,
 div#pagewrapper a:active,
 div#pagewrapper a.black:hover,
 div#pagewrapper a.black:active {
-  color: #000000 !important;
+  color: #cccccc !important;
 }
 .button {
-  background-image: -webkit-linear-gradient(top, #000000, #000000) !important;
+  background-image: -webkit-linear-gradient(top, #ffffff, #cccccc) !important;
   border-width: 0px !important;
-  color: #ffffff !important;
-  text-shadow: 0 1px #000000 !important;
+  color: #000000 !important;
+  text-shadow: 0 1px #ffffff !important;
 }
 .button:hover {
-  background-image: -webkit-linear-gradient(top, #000000, #000000) !important;
-  color: #ffffff !important;
+  background-image: -webkit-linear-gradient(top, #cccccc, #ffffff) !important;
+  color: #000000 !important;
 }
 span#owner {
   color: white !important;
@@ -38,8 +38,8 @@ a#djangobbwrap {
 }
 /* no favorites, projects etc */
 .empty-field {
-  background-color: #000000 !important;
-  border: 1px solid #000000 !important;
+  background-color: #ffffff !important;
+  border: 1px solid #cccccc !important;
 }
 /* footer */
 #footer {
@@ -56,7 +56,7 @@ div#footer a {
 }
 /* top nav */
 div#pagewrapper #topnav {
-  background-color: #000000 !important;
+  background-color: #ffffff !important;
 }
 div#pagewrapper #topnav a {
   color: #FFFFFF !important;
@@ -71,29 +71,29 @@ div#pagewrapper #topnav ul.account-nav > li.sign-in:hover,
 div#pagewrapper #topnav ul.account-nav > li.sign-in.open,
 div#pagewrapper ul.site-nav li:hover,
 #topnav ul.account-nav.logged-in li:hover {
-  background: #000000 !important;
+  background: #cccccc !important;
 }
 div#pagewrapper #topnav ul.account-nav > li.join-scratch:hover {
-  background: #000000 !important;
+  background: #cccccc !important;
 }
 /* sign in box */
 /* arrow */
 div#pagewrapper #topnav ul.account-nav .sign-in .popover .arrow:after {
-  border-bottom-color: #000000 !important;
+  border-bottom-color: #cccccc !important;
 }
 /* box */
 div#pagewrapper #topnav ul.account-nav .sign-in .popover {
-  background-color: #000000 !important;
+  background-color: #cccccc !important;
   border-color: #343434 !important;
 }
 div#pagewrapper #topnav ul.account-nav .logged-in-user .dropdown-menu {
-  background-color: #000000 !important;
+  background-color: #cccccc !important;
 }
 div#pagewrapper #topnav ul.account-nav ul.user-nav li.logout.divider {
   border-top: 2px solid #343434 !important;
 }
 div#pagewrapper #topnav ul.account-nav .logged-in-user.dropdown.open {
-  background-color: #000000 !important;
+  background-color: #cccccc !important;
 }
 /* video */
 div#pagewrapper .homepage-banner .video {
@@ -105,8 +105,8 @@ div#pagewrapper li {
 }
 /* box tops */
 div#pagewrapper .box {
-  background: #000000 !important;
-  border: 0.5px solid #000000 !important;
+  background: #ffffff !important;
+  border: 0.5px solid #cccccc !important;
 }
 div#pagewrapper .box .box-head h1,
 div#pagewrapper .box .box-head h2,
@@ -115,7 +115,7 @@ div#pagewrapper .box .box-head h4,
 div#pagewrapper .box .box-head .header-text .profile-details,
 div#pagewrapper .box .box-head .header-text #author {
   text-shadow: none !important;
-  color: #ffffff !important;
+  color: #000000 !important;
 }
 /* title */
 div#pagewrapper .intro .title {
@@ -124,5 +124,5 @@ div#pagewrapper .intro .title {
 }
 /* show more replies */
 #comments .more-replies .pulldown {
-  color: #000000 !important;
+  color: #ffffff !important;
 }
