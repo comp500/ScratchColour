@@ -108,7 +108,10 @@ div#pagewrapper .box {
   background: #ff0084 !important;
   border: 0.5px solid #99004f !important;
 }
-div#pagewrapper .box .box-head {
+div#pagewrapper .box .box-head h1,
+h2,
+h3,
+h4 {
   text-shadow: none !important;
   color: #ffffff !important;
 }
