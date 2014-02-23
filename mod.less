@@ -15,11 +15,11 @@ div#pagewrapper a:hover, div#pagewrapper a:active, div#pagewrapper a.black:hover
 	color: #7EA840 !important;
 }
 .button {
-    background-image: -webkit-linear-gradient(top,#99CD4E,#7EA840) !important;
+    background-image: -webkit-linear-gradient(top,@theme-color,darken(@theme-color, 20%)) !important;
     border-width: 0px !important;
 }
 .button:hover {
-        background-image: -webkit-linear-gradient(top,#7EA840,#99CD4E) !important;
+        background-image: -webkit-linear-gradient(top,darken(@theme-color, 20%),@theme-color) !important;
         color: white !important;
 }
 span#owner {
@@ -34,8 +34,8 @@ a#djangobbwrap {
 }
 /* no favorites, projects etc */
 .empty-field {
-	background-color: #99CD4E !important;
-	border: 1px solid #7EA840 !important;
+	background-color: @theme-color !important;
+	border: 1px solid darken(@theme-color, 20%) !important;
 }
 /* footer */
 #footer {
@@ -59,29 +59,29 @@ div#pagewrapper #topnav ul.site-nav li, div#pagewrapper #topnav ul.site-nav li.l
 }
 /* hover */
 div#pagewrapper #topnav ul.account-nav>li.sign-in:hover, div#pagewrapper #topnav ul.account-nav>li.sign-in.open, div#pagewrapper ul.site-nav li:hover, #topnav ul.account-nav.logged-in li:hover {
-	background: #7EA840 !important;
+	background: darken(@theme-color, 20%) !important;
 }
 div#pagewrapper #topnav ul.account-nav>li.join-scratch:hover {
-	background: #7EA840 !important;
+	background: darken(@theme-color, 20%) !important;
 }
 /* sign in box */
 /* arrow */
 div#pagewrapper #topnav ul.account-nav .sign-in .popover .arrow:after {
-	border-bottom-color: #7EA840 !important;
+	border-bottom-color: darken(@theme-color, 20%) !important;
 }
 /* box */
 div#pagewrapper #topnav ul.account-nav .sign-in .popover {
-	background-color: #7EA840 !important;
+	background-color: darken(@theme-color, 20%) !important;
 	border-color: #343434 !important;
 }
 div#pagewrapper #topnav ul.account-nav .logged-in-user .dropdown-menu {
-	background-color: #7EA840 !important;
+	background-color: darken(@theme-color, 20%) !important;
 }
 div#pagewrapper #topnav ul.account-nav ul.user-nav li.logout.divider {
 	border-top: 2px solid #343434 !important;
 }
 div#pagewrapper #topnav ul.account-nav .logged-in-user.dropdown.open {
-background-color: #7EA840 !important;
+background-color: darken(@theme-color, 20%) !important;
 }
 /* video */
 div#pagewrapper .homepage-banner .video {
@@ -93,8 +93,8 @@ div#pagewrapper li {
 }
 /* box tops */
 div#pagewrapper .box {
-	background: #99CD4E !important;
-	border: 0.5px solid #7EA840 !important;
+	background: @theme-color !important;
+	border: 0.5px solid darken(@theme-color, 20%) !important;
 }
 /* title */
 div#pagewrapper .intro .title {
@@ -103,6 +103,6 @@ div#pagewrapper .intro .title {
 }
 /* show more replies */
 #comments .more-replies .pulldown {
-    color: #99CD4E !important;
+    color: @theme-color !important;
 }
 }
