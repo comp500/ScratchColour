@@ -109,8 +109,8 @@ div#pagewrapper .box {
   border: 0.5px solid #99004f !important;
 }
 div#pagewrapper .box .box-head {
-  text-shadow: none;
-  color: #ffffff;
+  text-shadow: none !important;
+  color: #ffffff !important;
 }
 /* title */
 div#pagewrapper .intro .title {
