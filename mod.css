@@ -26,7 +26,8 @@ div#pagewrapper a.black:active {
   background-image: -webkit-linear-gradient(top, #cccccc, #ffffff) !important;
   color: #000000 !important;
 }
-.button:hover > span {
+.button:hover > span,
+.button:hover > a {
   color: #000000 !important;
 }
 .button a,
