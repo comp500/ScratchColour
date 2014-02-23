@@ -24,6 +24,7 @@ div#pagewrapper a.black:active {
 }
 .button:hover {
   background-image: -webkit-linear-gradient(top, #99004f, #ff0084) !important;
+  color: #ffffff !important;
 }
 span#owner {
   color: white !important;
