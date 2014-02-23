@@ -14,15 +14,18 @@ div#pagewrapper a:hover,
 div#pagewrapper a:active,
 div#pagewrapper a.black:hover,
 div#pagewrapper a.black:active {
-  color: #7EA840 !important;
+  color: #99004f !important;
 }
 .button {
   background-image: -webkit-linear-gradient(top, #ff0084, #99004f) !important;
   border-width: 0px !important;
+  color: #ffffff !important;
+  text-shadow: 0 1px invert(#ffffff) !important;
 }
 .button:hover {
   background-image: -webkit-linear-gradient(top, #99004f, #ff0084) !important;
-  color: white !important;
+  color: #ffffff !important;
+  text-shadow: 0 1px invert(#ffffff) !important;
 }
 span#owner {
   color: white !important;
@@ -44,6 +47,9 @@ a#djangobbwrap {
   background-color: #343434 !important;
   color: white;
   opacity: 0.8;
+  box-shadow: none;
+  webkit-box-shadow: none;
+  moz-box-shadow: none;
 }
 div#footer a {
   color: white !important;
