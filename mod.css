@@ -17,11 +17,11 @@ div#pagewrapper a.black:active {
   color: #7EA840 !important;
 }
 .button {
-  background-image: -webkit-linear-gradient(top, #99cd4e, #648d28) !important;
+  background-image: -webkit-linear-gradient(top, #ff0084, #99004f) !important;
   border-width: 0px !important;
 }
 .button:hover {
-  background-image: -webkit-linear-gradient(top, #648d28, #99cd4e) !important;
+  background-image: -webkit-linear-gradient(top, #99004f, #ff0084) !important;
   color: white !important;
 }
 span#owner {
@@ -36,8 +36,8 @@ a#djangobbwrap {
 }
 /* no favorites, projects etc */
 .empty-field {
-  background-color: #99cd4e !important;
-  border: 1px solid #648d28 !important;
+  background-color: #ff0084 !important;
+  border: 1px solid #99004f !important;
 }
 /* footer */
 #footer {
@@ -51,7 +51,7 @@ div#footer a {
 }
 /* top nav */
 div#pagewrapper #topnav {
-  background-color: #99cd4e !important;
+  background-color: #ff0084 !important;
 }
 div#pagewrapper #topnav a {
   color: #FFFFFF !important;
@@ -66,29 +66,29 @@ div#pagewrapper #topnav ul.account-nav > li.sign-in:hover,
 div#pagewrapper #topnav ul.account-nav > li.sign-in.open,
 div#pagewrapper ul.site-nav li:hover,
 #topnav ul.account-nav.logged-in li:hover {
-  background: #648d28 !important;
+  background: #99004f !important;
 }
 div#pagewrapper #topnav ul.account-nav > li.join-scratch:hover {
-  background: #648d28 !important;
+  background: #99004f !important;
 }
 /* sign in box */
 /* arrow */
 div#pagewrapper #topnav ul.account-nav .sign-in .popover .arrow:after {
-  border-bottom-color: #648d28 !important;
+  border-bottom-color: #99004f !important;
 }
 /* box */
 div#pagewrapper #topnav ul.account-nav .sign-in .popover {
-  background-color: #648d28 !important;
+  background-color: #99004f !important;
   border-color: #343434 !important;
 }
 div#pagewrapper #topnav ul.account-nav .logged-in-user .dropdown-menu {
-  background-color: #648d28 !important;
+  background-color: #99004f !important;
 }
 div#pagewrapper #topnav ul.account-nav ul.user-nav li.logout.divider {
   border-top: 2px solid #343434 !important;
 }
 div#pagewrapper #topnav ul.account-nav .logged-in-user.dropdown.open {
-  background-color: #648d28 !important;
+  background-color: #99004f !important;
 }
 /* video */
 div#pagewrapper .homepage-banner .video {
@@ -100,8 +100,8 @@ div#pagewrapper li {
 }
 /* box tops */
 div#pagewrapper .box {
-  background: #99cd4e !important;
-  border: 0.5px solid #648d28 !important;
+  background: #ff0084 !important;
+  border: 0.5px solid #99004f !important;
 }
 /* title */
 div#pagewrapper .intro .title {
@@ -110,5 +110,5 @@ div#pagewrapper .intro .title {
 }
 /* show more replies */
 #comments .more-replies .pulldown {
-  color: #99cd4e !important;
+  color: #ff0084 !important;
 }
